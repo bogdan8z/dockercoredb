@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+    webapp:
+        build:            
+            context: ./ProductsApi
+            dockerfile: Dockerfile
+        image: testbog1/api 
+        ports:
+            - "80:80"
+            - "433:433"
+        depends_on:
+            - db
+    db:
+        build:
+            context: ./database
+            dockerfile: Dockerfile
+        image: testbog1/db
+        ports:
+            - "1433:1433"

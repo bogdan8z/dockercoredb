@@ -1,0 +1,1 @@
+﻿>Scaffold-DbContext "User ID=sa;Password=Test@UZzuYXb2iSnzwk;server=192.168.99.100;Pooling=true;Database=DemoData;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
