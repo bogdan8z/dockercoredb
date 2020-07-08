@@ -1,1 +1,1 @@
-# Docker .net core & msq sql
+# Docker: .net core & msq sql
