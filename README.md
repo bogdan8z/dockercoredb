@@ -1,4 +1,4 @@
-# Docker: .net core & msq sql
+# Docker: .net core & ms sql
 
 
 
