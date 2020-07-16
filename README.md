@@ -12,8 +12,11 @@ b.run(cmd)
 
 
 2. install on aws:
+
 a.https://hub.docker.com/r/flashm01/test1coredb
+
 b.ssh to instance and run:
+
 >docker pull flashm01/test1coredb:db
 
 
