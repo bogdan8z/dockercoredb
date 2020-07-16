@@ -2,7 +2,9 @@
 
 
 1. run local
+
 a.locate docker-compose.yml
+
 b.run(cmd)
 >docker-compose build
 >docker-compose up
