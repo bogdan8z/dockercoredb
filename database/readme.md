@@ -1,5 +1,5 @@
 # Run tihs:
->docker build -t msbogtest --build-arg sapass=Test@UZzuYXb2iSnzwk .
+>docker build -t msbogtest --build-arg sapass=abc .
 >docker run -p 1433:1433 --name bggsql -d msbogtest
 
 # Utils:
