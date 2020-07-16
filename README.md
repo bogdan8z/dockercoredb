@@ -7,11 +7,12 @@ a.locate docker-compose.yml
 
 b.run(cmd)
 >docker-compose build
+
 >docker-compose up
 
 
 
-2. install on aws:
+2. if you want to install it on aws:
 
 a.https://hub.docker.com/r/flashm01/test1coredb
 
