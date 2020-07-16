@@ -22,7 +22,7 @@ namespace ProductsApi.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("User ID=sa;Password=Test@UZzuYXb2iSnzwk;server=192.168.99.100;Pooling=true;Database=DemoData;");
+                optionsBuilder.UseSqlServer("User ID=sa;Password=abc;server=192.168.99.100;Pooling=true;Database=DemoData;");
             }
         }
 
