@@ -1,5 +1,5 @@
 FROM microsoft/mssql-server-linux:latest
-ARG sapass=Test@UZzuYXb2iSnzwk
+ARG sapass=abc
 ENV ACCEPT_EULA=Y        
         ENV SA_PASSWORD=$sapass
         ENV MSSQL_PID=Developer
