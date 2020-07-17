@@ -1,6 +1,6 @@
-# Run tihs:
+# Run this:
 >docker build -t msbogtest --build-arg sapass=abc .
->docker run -p 1433:1433 --name bggsql -d msbogtest
+>docker run -p 5432:5432 --name bggsql -d msbogtest
 
 # Utils:
 >docker logs <container_name>
@@ -11,5 +11,5 @@
 
 
 # More info: 
-https://hub.docker.com/_/microsoft-mssql-server
-https://github.com/twright-msft/mssql-node-docker-demo-app
+https://hub.docker.com/_/postgres
+https://dataschool.com/learn-sql/importing-data-from-csv-in-postgresql/

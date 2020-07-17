@@ -21,10 +21,9 @@ namespace ProductsApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MyDbContext>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("ProdDatabase"));
-            });
+            services.AddEntityFrameworkNpgsql().AddDbContext<MyDbContext>(opt =>
+                opt.UseNpgsql(Configuration.GetConnectionString("ProdDatabase"))
+            );
             services.AddControllers();
             //services.AddMvc();
         }

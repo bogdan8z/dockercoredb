@@ -12,6 +12,14 @@ namespace ProductsApi.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, MyDbContext context)
+        {
+            _logger = logger;
+            _context = context;
+        }
+
+        private readonly MyDbContext _context;
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -19,10 +27,6 @@ namespace ProductsApi.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
         
         [HttpGet("{id}")]
         public IEnumerable<WeatherForecast> Get(int id)
@@ -38,11 +42,18 @@ namespace ProductsApi.Controllers
         }
 
 
+        //[HttpGet("mssql")]
+        //public ActionResult GetAllSql()
+        //{
+        //    var context = new MyDbContext();
+        //    var list = context.Products.ToList();
+        //    return Ok(list);
+        //}
+
         [HttpGet]
-        public ActionResult GetAll()
+        public ActionResult<List<Products>> GetAllPs()
         {
-            var context = new MyDbContext();
-            return Ok(context.Products.ToList());
+            return _context.Products.ToList();
         }
 
 
