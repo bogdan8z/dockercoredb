@@ -4,7 +4,7 @@ services:
         build:            
             context: ./ProductsApi
             dockerfile: Dockerfile
-        image: testbog1/api 
+        image: flashm01/test1coredb:api 
         ports:
             - "80:80"
             - "433:433"
@@ -15,7 +15,8 @@ services:
             context: ./database
             dockerfile: Dockerfile
             args:
-              sapass: abc12            
-        image: testbog1/db     
+              sapass: abc12x
+              dbusr: doc1x            
+        image: flashm01/test1coredb:db     
         ports:
             - "5432:5432"

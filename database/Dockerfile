@@ -4,7 +4,8 @@ FROM library/postgres
 
 
 ARG sapass=abc
-ENV POSTGRES_USER doc1
+ARG dbusr=doc1
+ENV POSTGRES_USER $dbusr
 ENV POSTGRES_DB demodata
 ENV POSTGRES_PASSWORD $sapass
 

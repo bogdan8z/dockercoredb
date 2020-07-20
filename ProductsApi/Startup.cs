@@ -26,7 +26,7 @@ namespace ProductsApi
                 opt.UseNpgsql(ConnectionString())
             );
             services.AddControllers();
-            //services.AddMvc();
+            services.AddMvc();
         }
 
         private string ConnectionString() =>

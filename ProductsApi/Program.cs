@@ -20,7 +20,7 @@ namespace ProductsApi
             Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((context, builder) =>
                 {
-                    if (context.HostingEnvironment.IsProduction())
+                   // if (context.HostingEnvironment.IsProduction())
                     {
                         //add keys form AWS Parameter Store
                         builder.AddSystemsManager("/productsapi");
