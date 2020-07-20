@@ -3,9 +3,9 @@
 
 1. run local
 
-a.locate docker-compose.yml
+a. locate docker-compose.yml
 
-b.run(cmd)
+b. run(cmd)
 >docker-compose build
 
 >docker-compose up
@@ -14,9 +14,9 @@ b.run(cmd)
 
 2. if you want to install it on aws:
 
-a.https://hub.docker.com/r/flashm01/test1coredb
+a. https://hub.docker.com/r/flashm01/test1coredb
 
-b.ssh to instance and run:
+b. ssh to instance and run:
 
 >docker pull flashm01/test1coredb:db
 
@@ -28,3 +28,14 @@ c.run images:
 
 
 >docker run -p 80:80 -p 443:443 -d flashm01/test1coredb:api
+
+
+
+Modificare intr o imagine veche si creat una noua:
+>docker run -p 5432:5432 -d old-img
+
+>docker commit --change "ENV POSTGRES_USER=u1 POSTGRES_PASSWORD=p1" c5e new-img
+
+>docker run -p 5432:5432 -d new-img
+
+>check if ok: open container:ec2-user: printenv
