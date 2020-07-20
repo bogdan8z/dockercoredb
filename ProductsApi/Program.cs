@@ -18,9 +18,14 @@ namespace ProductsApi
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
+                .ConfigureAppConfiguration((context, builder) =>
                 {
-                    webBuilder.UseStartup<Startup>();
-                });
+                    if (context.HostingEnvironment.IsProduction())
+                    {
+                        //add keys form AWS Parameter Store
+                        builder.AddSystemsManager("/productsapi");
+                    }
+                })
+                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
     }
 }

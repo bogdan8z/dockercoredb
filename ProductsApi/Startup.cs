@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 using ProductsApi.Models;
 
 
@@ -22,11 +23,19 @@ namespace ProductsApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddEntityFrameworkNpgsql().AddDbContext<MyDbContext>(opt =>
-                opt.UseNpgsql(Configuration.GetConnectionString("ProdDatabase"))
+                opt.UseNpgsql(ConnectionString())
             );
             services.AddControllers();
             //services.AddMvc();
         }
+
+        private string ConnectionString() =>
+            new NpgsqlConnectionStringBuilder(Configuration.GetConnectionString("ProdDatabase"))
+            {
+                Username = Configuration["DbUser"],
+                Password = Configuration["DbPassword"],
+                Host = Configuration["DbHost"]
+            }.ConnectionString;
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

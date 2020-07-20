@@ -41,21 +41,10 @@ namespace ProductsApi.Controllers
             .ToArray();
         }
 
-
-        //[HttpGet("mssql")]
-        //public ActionResult GetAllSql()
-        //{
-        //    var context = new MyDbContext();
-        //    var list = context.Products.ToList();
-        //    return Ok(list);
-        //}
-
         [HttpGet]
         public ActionResult<List<Products>> GetAllPs()
         {
             return _context.Products.ToList();
         }
-
-
     }
 }
