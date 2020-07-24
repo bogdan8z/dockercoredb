@@ -1,7 +1,7 @@
 # Docker: .net core & ms sql
 
 
-1. run local
+1.run local
 
 a. locate docker-compose.yml
 
@@ -12,7 +12,7 @@ b. run(cmd)
 
 
 
-2. if you want to install it on aws:
+2.if you want to install it on aws:
 
 a. https://hub.docker.com/r/flashm01/test1coredb
 
