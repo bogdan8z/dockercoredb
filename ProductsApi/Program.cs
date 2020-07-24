@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace ProductsApi
 {
@@ -13,6 +8,7 @@ namespace ProductsApi
     {
         public static void Main(string[] args)
         {
+           // await PopulateSampleDataForThisProject.PopulateAsync().ConfigureAwait(false);
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -20,11 +16,15 @@ namespace ProductsApi
             Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((context, builder) =>
                 {
-                   // if (context.HostingEnvironment.IsProduction())
-                    {
+                   if (context.HostingEnvironment.IsProduction())
+                   {
                         //add keys form AWS Parameter Store
-                        builder.AddSystemsManager("/productsapi");
-                    }
+                        builder.AddSystemsManager("/prod/test-aws/databases/products-api");
+                        var env = context.HostingEnvironment;
+                       builder.AddSystemsManager($"/dotnet-aws-samples/systems-manager-sample/common");
+                       builder.AddSystemsManager($"/dotnet-aws-samples/systems-manager-sample/{env.EnvironmentName}",
+                           optional: true);
+                   }
                 })
                 .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
     }

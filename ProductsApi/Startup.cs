@@ -27,6 +27,10 @@ namespace ProductsApi
             );
             services.AddControllers();
             services.AddMvc();
+
+            // load dotnet-aws-samples/systems-manager-sample/common/setting to settings model
+            services.Configure<Settings>(Configuration.GetSection("settings"));
+            services.AddDefaultAWSOptions(Configuration.GetAWSOptions());
         }
 
         private string ConnectionString() =>
