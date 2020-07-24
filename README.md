@@ -31,7 +31,8 @@ c.run images:
 
 
 
-Modificare intr o imagine veche si creat una noua:
+Modify an image and create another one:
+
 >docker run -p 5432:5432 -d old-img
 
 >docker commit --change "ENV POSTGRES_USER=u1 POSTGRES_PASSWORD=p1" c5e new-img
