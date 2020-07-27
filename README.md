@@ -35,8 +35,19 @@
 
     >check if ok: printenv
 
+***
 
 ## Links
+
+[AWS - What is Docker?](https://aws.amazon.com/docker/)
+
+[Docker basics for Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
+
+[Overview of the Lambda Rotation Function](https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets-lambda-function-overview.html)
+
+[Your personal AWS setup (and how to not get hacked)](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
+
+[Where (And How) to Start Learning AWS as a Beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html>
 
@@ -69,3 +80,9 @@
 [deploy container on aws](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers)
 
 [The AWS Journey Part 1: Deploying Your First Docker Image](https://reflectoring.io/aws-deploy-docker-image-via-web-console)
+
+[Setting up AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-setting-up.html)
+
+[Organizing parameters into hierarchies](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-paramstore-su-organize.html)
+
+[Policy structure](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-policy-structure.html)
