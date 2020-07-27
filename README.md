@@ -4,14 +4,15 @@
 
     1.1. locate docker-compose.yml
 
-    1.2. run(cmd)
+    1.2. in that folder run(cmd)
     > docker-compose build
+
     > docker-compose up
 
 2. if you want to run it on aws:
 
     2.1. [Install docker on aws](https://github.com/bogdan8z/dockercoredb/tree/master/docs/install-aws)
-    
+
     2.2. <https://hub.docker.com/r/flashm01/test1coredb>
 
     2.3. ssh to instance and run:
