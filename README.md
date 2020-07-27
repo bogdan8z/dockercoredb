@@ -13,11 +13,12 @@
 
     2.1. [Install docker on aws](https://github.com/bogdan8z/dockercoredb/tree/master/docs/install-aws)
 
-    2.2. <https://hub.docker.com/r/flashm01/test1coredb>
-
-    2.3. ssh to instance and run:
+    2.3. ssh to instance and run*:
     > docker pull flashm01/test1coredb:db
+
     > docker pull flashm01/test1coredb:api
+
+    *[check the images on docker hub](https://hub.docker.com/r/flashm01/test1coredb)
 
     2.4. run images:
     >docker run -p 1433:1433 -d flashm01/test1coredb:db
@@ -33,5 +34,3 @@
     >docker run -p 5432:5432 -d new-img
 
     >check if ok: printenv
-
-4. xxx
