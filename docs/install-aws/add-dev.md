@@ -101,7 +101,7 @@
     }
     ```
 
-2. Add new **SsmGrp**, **ConsoleStoreParamsGrp** ,**RunEc2Grp** groups
+2. Add new **SsmGrp**, **ConsoleStoreParamsGrp**, **RunEc2Grp** groups
 
 3. Add new users
 
