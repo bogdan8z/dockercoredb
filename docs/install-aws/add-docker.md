@@ -1,8 +1,8 @@
 # Install docker on aws
 
-1. Create free tier account on aws
+1. Create [**AWS Free tier**](https://github.com/bogdan8z/dockercoredb/tree/master/docs/install-aws) account
 
-    1.1. create user admin, create user dev(for ec2) !!!! check [here](https://github.com/bogdan8z/dockercoredb/blob/master/README.md#modify-image)
+    1.1. create user admin, create user dev(for ec2). [more info](https://github.com/bogdan8z/dockercoredb/blob/master/README.md#modify-image)
 
 2. **launch instance** linux2 with .net core
 
@@ -30,7 +30,7 @@
 
     7.2. run in ssh:> **docker pull flashm01/test1coredb:api**
 
-    here you need to modify the image in order to change user/pass for the database, check [here](https://github.com/bogdan8z/dockercoredb/blob/master/README.md#modify-image)
+    here you need to modify the image in order to change user/pass for the database, [more info](https://github.com/bogdan8z/dockercoredb/blob/master/README.md#modify-image)
 
 8. run docker images
 
