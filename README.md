@@ -11,6 +11,7 @@
 2. if you want to run it on aws:
 
     2.1. [Install docker on aws](https://github.com/bogdan8z/dockercoredb/tree/master/docs/install-aws)
+    
     2.2. <https://hub.docker.com/r/flashm01/test1coredb>
 
     2.3. ssh to instance and run:
