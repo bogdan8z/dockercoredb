@@ -39,4 +39,4 @@ Modify an image and create another one:
 
 >docker run -p 5432:5432 -d new-img
 
->check if ok: open container:ec2-user: printenv
+>check if ok: printenv
