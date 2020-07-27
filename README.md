@@ -25,7 +25,7 @@
 
     >docker run -p 80:80 -p 443:443 -d flashm01/test1coredb:api
 
-3. [Howto modify an image and create another one](#modify-image)
+3. [Howto modify an image and create another one](##modify-image)
 
     >docker run -p 5432:5432 -d old-img
 
@@ -39,7 +39,13 @@
 
 5. This is [an example][id] reference-style link.
 
-6. [id]: http://example.com/  "Optional Title Here"
+6. [foo]: http://example.com/  "Optional Title Here"
+
+[foo]: http://example.com/  'Optional Title Here'
+
+[foo]: http://example.com/  (Optional Title Here)
+
+[id]: <http://example.com/>  "Optional Title Here"
 
 ## Links
 
