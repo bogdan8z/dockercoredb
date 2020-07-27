@@ -6,7 +6,7 @@
 
 2. **launch instance** linux2 with .net core
 
-3. connect to the instance with "ec2-user" user
+3. connect to the instance with **ec2-user** user
 
 4. install docker:
     4.1. run in ssh:> **sudo su**
@@ -40,6 +40,6 @@
 
 9. after every restart you need to start docker:
 
-* 4.1
-* 5.1
-* 6.1
+    * 4.1
+    * 5.1
+    * 6.1

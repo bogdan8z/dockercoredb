@@ -1,8 +1,8 @@
 # Docker(aws): .net core & postgres
 
-1. Run local
+1. Run locally
 
-    1.1. locate docker-compose.yml
+    1.1. locate **docker-compose.yml** file
 
     1.2. in that folder run(cmd)
     > docker-compose build
