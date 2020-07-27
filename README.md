@@ -25,7 +25,7 @@
 
     >docker run -p 80:80 -p 443:443 -d flashm01/test1coredb:api
 
-3. [Howto modify an image and create another one:](#modify-image)
+3. [Howto modify an image and create another one](#modify-image)
 
     >docker run -p 5432:5432 -d old-img
 
@@ -34,6 +34,12 @@
     >docker run -p 5432:5432 -d new-img
 
     >check if ok: printenv
+
+4. [id]: http://b.org/ "title"
+
+5. This is [an example][id] reference-style link.
+
+6. [id]: http://example.com/  "Optional Title Here"
 
 ## Links
 
