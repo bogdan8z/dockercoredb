@@ -2,7 +2,7 @@
 
 1. Create [**AWS Free tier**](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) account
 
-    1.1. create an **adminintrator** user, create a **developer** user to use with ec2. [more info](https://github.com/bogdan8z/dockercoredb/blob/master/README.md#modify-image)
+    1.1. create an **adminintrator** user, create a **developer** user to use with ec2. [more info](https://github.com/bogdan8z/dockercoredb/blob/master/README.md#howto-modify-an-image-and-create-another-one)
 
 2. **launch instance** linux2 with .net core
 
