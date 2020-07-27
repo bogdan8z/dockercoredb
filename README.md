@@ -1,4 +1,4 @@
-# Docker: .net core & ms sql
+# Docker(aws): .net core & postgres
 
 1. Run local
 
