@@ -35,5 +35,36 @@
 
     >check if ok: printenv
 
-4. Links
-todo
+## Links
+
+<https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html>
+
+[install docker***](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
+
+[launch Amazon Linux 2 AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html)
+
+[connect to linux instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html)
+
+[docker image to aws](https://reflectoring.io/aws-deploy-docker-image-via-web-console)
+
+<https://expeditedsecurity.com/aws-in-plain-english/>
+
+<https://aws.amazon.com/docker/>
+
+[ecs link1](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
+
+[ecs link2](https://eu-central-1.console.aws.amazon.com/ecs/home?region=eu-central-1#/getStarted)
+
+[ecs task](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html)
+
+<https://levi9.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture>
+
+<https://expeditedsecurity.com/aws-in-plain-english/>
+
+[ecs using fargate tutorial](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-fargate.html)
+
+[intro load balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
+
+[deploy container on aws](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers)
+
+[The AWS Journey Part 1: Deploying Your First Docker Image](https://reflectoring.io/aws-deploy-docker-image-via-web-console)
