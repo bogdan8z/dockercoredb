@@ -2,6 +2,6 @@
 
 Steps
 
-1. [add docker](add-docker.md)
+1. [Add docker](add-docker.md)
 
-2. [add **developer** user](add-dev.md)
+2. [Add **developer** user](add-dev.md)
