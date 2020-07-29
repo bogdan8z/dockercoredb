@@ -111,3 +111,6 @@ to **SsmGrp** group. Also create access key
     3.2. Add **developer1** user to **ConsoleStoreParamsGrp** and **RunEc2Grp** groups and enable MFA
 
 4. Add **run-ec2** role and attach **get-store-parameters** policy
+
+5. enable ssh with EC2 Instance Connect (browser-based SSH connection):
+search for EC2_INSTANCE_CONNECT and your region in <https://ip-ranges.amazonaws.com/ip-ranges.json>

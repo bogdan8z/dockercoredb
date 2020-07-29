@@ -86,3 +86,5 @@
 [Organizing parameters into hierarchies](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-paramstore-su-organize.html)
 
 [Policy structure](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-policy-structure.html)
+
+[AWS IP address ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html)
