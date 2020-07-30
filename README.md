@@ -88,3 +88,11 @@
 [Policy structure](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-policy-structure.html)
 
 [AWS IP address ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html)
+
+[CloudFront](https://aws.amazon.com/cloudfront/)
+
+[How to set up a CloudFront distribution for Amazon EC2](https://aws.amazon.com/cloudfront/getting-started/EC2)
+
+[x](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html)
+
+[y](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html)
