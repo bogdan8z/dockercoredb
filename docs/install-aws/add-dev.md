@@ -106,11 +106,13 @@
 3. Add new users
 
     3.1. Add **SSMUser1** user with **Programmatic access** option
-to **SsmGrp** group. Also create access key
+to **SsmGrp** group.
 
     3.2. Add **developer1** user to **ConsoleStoreParamsGrp** and **RunEc2Grp** groups and enable MFA
 
 4. Add **run-ec2** role and attach **get-store-parameters** policy
 
-5. enable ssh with EC2 Instance Connect (browser-based SSH connection):
+5. check [key-rotation](key-rotation.md)
+
+6. enable ssh with EC2 Instance Connect (browser-based SSH connection):
 search for EC2_INSTANCE_CONNECT and your region in <https://ip-ranges.amazonaws.com/ip-ranges.json>
