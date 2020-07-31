@@ -22,7 +22,7 @@ Steps
 
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html>
 
-[install docker***](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
+[Install Docker***](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
 
 [launch Amazon Linux 2 AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html)
 
@@ -34,19 +34,17 @@ Steps
 
 <https://aws.amazon.com/docker/>
 
-[ecs link1](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
+[What is Amazon Elastic Container Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
 
-[ecs link2](https://eu-central-1.console.aws.amazon.com/ecs/home?region=eu-central-1#/getStarted)
+[Elastic Container Service](https://eu-central-1.console.aws.amazon.com/ecs/home?region=eu-central-1#/getStarted)
 
-[ecs task](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html)
+[ECS Task](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html)
 
 <https://levi9.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture>
 
 <https://expeditedsecurity.com/aws-in-plain-english/>
 
 [ecs using fargate tutorial](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-fargate.html)
-
-[intro load balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
 
 [deploy container on aws](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers)
 
@@ -64,12 +62,12 @@ Steps
 
 [How to set up a CloudFront distribution for Amazon EC2](https://aws.amazon.com/cloudfront/getting-started/EC2)
 
-[x](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html)
+[Getting started with Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html)
 
-[y](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html)
+[Create an HTTPS listener for your Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html)
 
 [AWS tutorials](https://aws.amazon.com/getting-started/hands-on/)
 
-[mm](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
+[Intro Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
 
-[xx](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-metrics.html)
+[CloudWatch metrics for your Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-cloudwatch-metrics.html)
