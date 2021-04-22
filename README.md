@@ -41,5 +41,6 @@ This project will create a docker image containing a simple API (.net core) that
 
 ## TODO
 
-1. add load balancer
-2. finish serverless implementation in AWS
+1. build or move image to AWS
+2. add load balancer
+3. finish serverless implementation in AWS
