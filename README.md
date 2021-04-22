@@ -1,5 +1,7 @@
 # Docker(aws): .net core & postgres
 
+This project will create a docker image containing a simple API (.net core) that connects to a postgres database.
+
 1. Run locally
 
     1.1. locate **docker-compose.yml** file
